@@ -1,0 +1,17 @@
+Player #	Player's Name	GP	GS	Total Mins	Total FG	Total FGA	3FG	3FGA	FT	FTA	Off Reb	Def Reb	PF	A	TO	Stl	Blk	Total Pts Scored
+11	"McGowan, Angel"	29	28	890	131	331	33	125	84	117	23	57	68	73	91	46	3	379
+35	"Butler, Patrice"	27	18	544	131	271	20	54	48	64	43	105	62	13	51	14	9	330
+24	"Knight, Anna Claire"	29	29	918	120	327	21	85	52	74	45	117	44	53	82	37	7	313
+14	"Jones, Briana"	27	26	541	67	148	0	0	23	31	29	96	59	20	35	17	38	157
+23	"Sams, Alexis"	29	29	891	47	138	37	109	22	27	7	54	47	59	60	21	3	153
+																		
+																		
+																		
+																		
+																		
+																		
+																		
+																		
+																		
+																		
+																		

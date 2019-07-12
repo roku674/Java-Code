@@ -1,0 +1,111 @@
+import java.util.Scanner;
+
+public class Coins {
+	
+	private int pennies;
+	private int nickles;
+	private int dimes;
+	private int quarters;
+
+	public Coins() {
+	    pennies = 0;
+	    nickles = 0;
+	    dimes = 0;
+	    quarters = 0;
+	}
+
+	public Coins(int pennies, int nickles, int dimes, int quarters) {
+	   this.pennies = pennies;
+	   this.nickles = nickles;
+	   this.dimes = dimes;
+	   this.quarters = quarters;
+	}
+
+	public int getPennies() {
+	    return pennies;
+	}
+
+	public void setPennies(int pennies) {
+	    this.pennies = pennies;
+	}
+	
+	public int getNickles() {
+	    return nickles;
+	}
+	public void setNickles(int nickles) {
+	    this.nickles = nickles;
+	}
+
+	public int getDimes() {
+	    return dimes;
+	}
+	public void setDimes(int dimes) {
+	    this.dimes = dimes;
+	}
+	public int getQuarters() {
+	    return quarters;
+	}
+	public void setQuarters(int quarters) {
+	    this.quarters = quarters;
+	}
+
+	public String toString() {
+	    return null;
+	}
+
+
+  public static void main(String[] args) {
+
+Scanner scan = new Scanner(System.in);
+
+System.out.print("Enter the number of pennies: ");
+int pennies = scan.nextInt();
+
+System.out.print("Enter the number of nickels: ");
+int nickles = scan.nextInt();
+
+System.out.print("Enter the number of Dimes: ");
+int dimes = scan.nextInt();
+
+System.out.print("Enter the number of Quarters: ");
+int quarters = scan.nextInt();
+
+
+Coins c = new Coins(pennies,nickles,dimes,quarters);
+System.out.println(pennies + nickles + dimes + quarters + " Coins ");
+System.out.println("Dollars: "+ ( ((double)(pennies)/100) + ((double)(nickles *5)/100) + ((double)(dimes*10)/100) + ((double)(quarters*25)/100) ) );
+System.out.println(c);
+  }
+}
+
+
+
+
+
+
+public class TestCoins {
+  Coins.pennies();
+  Coins.nickles();
+  Coins.dimes();
+  Coins.quarters();
+  public static void main(String[] args) { 
+
+    Scanner scan = new Scanner(System.in);
+
+    System.out.print("pennies: ");
+    int pennies = scan.nextInt();
+
+    System.out.print("nickels: ");
+    int nickles = scan.nextInt();
+
+    System.out.print("Dimes: ");
+    int dimes = scan.nextInt();
+
+    System.out.print("Quarters: ");
+    int quarters = scan.nextInt();
+
+    c = ("Dollars: "+ ( ((double)(pennies)/100) + ((double)(nickles *5)/100) + ((double)(dimes*10)/100) + ((double)(quarters*25)/100) ) ); 
+    System.out.println(c);
+
+  }
+}

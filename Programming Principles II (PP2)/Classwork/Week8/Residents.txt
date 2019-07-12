@@ -1,0 +1,4 @@
+State	Zip	City		Street			Num_of_Adults	Num_of_children
+GA	30458	Statesboro	"123 Bugs Bunny Drive"	2	5
+FL	31999	Miami	"40324 SW 9th Street"	4		6
+GA	31401	Savannah	"654 E Gordon Steet"	5	4
